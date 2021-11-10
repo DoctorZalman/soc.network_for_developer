@@ -1,9 +1,9 @@
 const express = require('express');
 const router = express.Router();
+// @route   GET api/auth
+// @desc    Test route
+// @access Public
 
-//  @route GET api/auth
-//  @desc  Test route
-//  @route Public
-router.get('/', (req, res) => res.send('Auth route'));
+router.get('/', (req, res) => res.send('Auth rote'));
 
-exports = router;
+module.exports = router;
