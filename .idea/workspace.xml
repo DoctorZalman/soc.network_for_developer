@@ -7,7 +7,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fc05a04c-8aff-45c8-9415-caac20cd50dd" name="Default Changelist" comment="16_Get current user profile">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/default.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/default.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/api/profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api/profile.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -127,6 +127,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="93" y="93" width="1350" height="638" key="DiffContextDialog/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1636383250219" />
+    <state x="147" y="65" key="MergeDialog" timestamp="1638902757005">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="147" y="65" key="MergeDialog/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1638902757005" />
     <state x="157" y="22" width="1123" height="790" key="SettingsEditor" timestamp="1638626491001">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -139,10 +143,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1636382513611" />
-    <state x="550" y="125" key="git4idea.branch.GitSmartOperationDialog" timestamp="1638623167021">
+    <state x="550" y="125" key="git4idea.branch.GitSmartOperationDialog" timestamp="1638902753892">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="550" y="125" key="git4idea.branch.GitSmartOperationDialog/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1638623167021" />
+    <state x="550" y="125" key="git4idea.branch.GitSmartOperationDialog/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1638902753892" />
     <state x="589" y="311" key="git4idea.ui.GitStashDialog" timestamp="1638636672025">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
