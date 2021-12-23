@@ -21,6 +21,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Pull.Settings">
+    <option name="BRANCH" value="master" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
@@ -73,6 +76,7 @@
       <workItem from="1638983948171" duration="1889000" />
       <workItem from="1640107298790" duration="3060000" />
       <workItem from="1640160798020" duration="1086000" />
+      <workItem from="1640259141792" duration="4174000" />
     </task>
     <servers />
   </component>
