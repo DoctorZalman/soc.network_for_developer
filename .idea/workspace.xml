@@ -6,21 +6,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fc05a04c-8aff-45c8-9415-caac20cd50dd" name="Default Changelist" comment="16_Get current user profile">
-      <change afterPath="$PROJECT_DIR$/client/src/components/layout/Landing.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/layout/Navbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/img/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/img/showcase.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.prettierrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/auth/Login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/auth/Register.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/reportWebVitals.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/layout/Landing.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/layout/Landing.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/layout/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/layout/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +52,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/client/src/components/layout" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -73,10 +69,49 @@
       <recent name="D:\IT\fullstack\react-redux-node\client\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\IT\fullstack\react-redux-node" />
       <recent name="D:\IT\fullstack\react-redux-node\client" />
+      <recent name="D:\IT\fullstack\react-redux-node" />
       <recent name="D:\IT\fullstack\react-redux-node\client\src" />
     </key>
+  </component>
+  <component name="RunManager" selected="npm.prettier:cli">
+    <configuration name="lint" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/client/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="lint" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="prettier:check" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/client/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="prettier:check" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="prettier:cli" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/client/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="prettier:cli" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.prettier:cli" />
+        <item itemvalue="npm.prettier:check" />
+        <item itemvalue="npm.lint" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -101,6 +136,13 @@
       <workItem from="1640107298790" duration="3060000" />
       <workItem from="1640160798020" duration="1086000" />
       <workItem from="1640259141792" duration="4174000" />
+      <workItem from="1640279048541" duration="75000" />
+      <workItem from="1640686848313" duration="287000" />
+      <workItem from="1640688252637" duration="908000" />
+      <workItem from="1640706484629" duration="393000" />
+      <workItem from="1640706896856" duration="951000" />
+      <workItem from="1640785515668" duration="4814000" />
+      <workItem from="1640790405833" duration="1127000" />
     </task>
     <servers />
   </component>
@@ -162,14 +204,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="93" y="93" width="1350" height="638" key="DiffContextDialog/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1636383250219" />
+    <state width="1515" height="240" key="GridCell.Tab.0.bottom" timestamp="1640790515717">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="240" key="GridCell.Tab.0.bottom/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1640790515717" />
+    <state width="1515" height="240" key="GridCell.Tab.0.center" timestamp="1640790515717">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="240" key="GridCell.Tab.0.center/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1640790515717" />
+    <state width="1515" height="240" key="GridCell.Tab.0.left" timestamp="1640790515717">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="240" key="GridCell.Tab.0.left/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1640790515717" />
+    <state width="1515" height="240" key="GridCell.Tab.0.right" timestamp="1640790515717">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="240" key="GridCell.Tab.0.right/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1640790515717" />
     <state x="147" y="65" key="MergeDialog" timestamp="1640111383542">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="147" y="65" key="MergeDialog/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1640111383542" />
-    <state x="157" y="22" width="1123" height="790" key="SettingsEditor" timestamp="1640270267545">
+    <state x="157" y="22" width="1123" height="790" key="SettingsEditor" timestamp="1640277311115">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="157" y="22" width="1123" height="790" key="SettingsEditor/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1640270267545" />
+    <state x="157" y="22" width="1123" height="790" key="SettingsEditor/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1640277311115" />
     <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1640263607615">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -182,6 +240,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1636382513611" />
+    <state x="478" y="11" width="579" height="801" key="find.popup" timestamp="1640791419365">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="478" y="11" width="579" height="801" key="find.popup/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1640791419365" />
     <state x="550" y="125" key="git4idea.branch.GitSmartOperationDialog" timestamp="1640111373432">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -190,6 +252,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="589" y="311" key="git4idea.ui.GitStashDialog/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1638636672025" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1640277264799">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1640277264799" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1638966232164">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
