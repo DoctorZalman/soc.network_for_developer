@@ -1,7 +1,7 @@
 {
   "name": "react-redux-node",
   "version": "1.0.0",
-  "description": "Social Network fro developers",
+  "description": "Social Network for developers",
   "main": "server.js",
   "scripts": {
     "start": "node server",
