@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React, {useEffect, useState} from 'react';
 import './App.css';
 import {
     BrowserRouter,
@@ -10,7 +10,7 @@ import Landing from "./components/layout/Landing";
 import Register from "./components/auth/Register";
 import Login from "./components/auth/Login";
 import Alert from "./components/layout/Alert";
-import Dashboard from "./components/dashboard/dashboard";
+import Dashboard from "./components/dashboard/Dashboard";
 // import PrivateRoute from "./components/routing/PrivateRoute";
 
 // Redux
@@ -18,6 +18,7 @@ import {Provider} from "react-redux";
 import store from './store';
 import {loadUser} from "./actions/auth";
 import setAuthToken from "./utils/setAuthToken";
+import Spinner from "./components/layout/Spinner";
 
 
 if (localStorage.token) {
@@ -25,22 +26,27 @@ if (localStorage.token) {
 }
 
 const App = () => {
-    useEffect(() => {
-        store.dispatch(loadUser());
+    const [loading, setLoading] = useState(true);
+
+    useEffect(async () => {
+        await store.dispatch(loadUser()); // dispatch returns promise
+        setLoading(false); // set loading state to false
     }, []);
+
+    if (loading) {
+        return <Spinner/> // load this when page is getting data
+    }
     return (
         <Provider store={store}>
             <BrowserRouter>
-                <Navbar/>
                 <Alert/>
+                <Navbar/>
                 <Routes>
                     <Route path='/' element={<Landing/>}/>
-                    <React.Fragment key="container">
-                        <Route path="/register" element={<Register/>}/>
-                        <Route path="/login" element={<Login/>}/>
-                        <Route path="/dashboard" element={<Dashboard />}/>
-                        {/*<PrivateRoute path="/dashboard" element={<Dashboard />}/>*/}
-                    </React.Fragment>
+                    <Route path="/register" element={<Register/>}/>
+                    <Route path="/login" element={<Login/>}/>
+                    <Route path="/dashboard" element={<Dashboard/>}/>
+                    {/*<PrivateRoute path="/dashboard" element={<Dashboard />}/>*/}
                 </Routes>
             </BrowserRouter>
         </Provider>
