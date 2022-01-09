@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { connect } from "react-redux"
-import {Link} from "react-router-dom";
+import {Routes, Route, Link, Navigate } from "react-router-dom";
 import { setAlert } from "../../actions/alert";
 import { register } from "../../actions/auth";
 import PropTypes from "prop-types";
@@ -27,7 +27,9 @@ const Register = ({setAlert, register, isAuthenticated}) => {
     }
     if (isAuthenticated) {
         return (
-                <Link path='/dashboard'/>
+            <Routes>
+                <Route path="/" element={<Navigate replace to="/dashboard" />} />
+            </Routes>
         )
     }
     return (
@@ -82,7 +84,7 @@ const Register = ({setAlert, register, isAuthenticated}) => {
             </form>
             <p className="my-1">
                 Already have an account?
-               <Link path="/login/*">Sign In</Link>
+               <Link to="/login">Sign In</Link>
 
             </p>
         </div>
