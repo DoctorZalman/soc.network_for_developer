@@ -4,7 +4,7 @@ import {
     PROFILE_ERROR
 } from "./types";
 
-// GEt current users profile
+// Get current users profile
 
 export const getCurrentProfile = () => async dispatch => {
     try {
