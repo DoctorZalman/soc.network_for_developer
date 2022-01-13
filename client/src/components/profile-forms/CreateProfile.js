@@ -2,6 +2,7 @@ import React, {useState} from "react";
 import {connect} from 'react-redux';
 import {createProfile} from '../../actions/profile';
 import PropTypes from 'prop-types';
+import {Link} from "react-router-dom";
 
 
 const CreateProfile = ({createProfile, history}) => {
@@ -157,14 +158,15 @@ const CreateProfile = ({createProfile, history}) => {
 
 
                 <input type="submit" className="btn btn-primary my-1"/>
-                <a className="btn btn-light my-1" href="dashboard.html">Go Back</a>
+                <Link className="btn btn-light my-1" to="/dashboard">Go Back</Link>
             </form>
         </div>
     )
 
 }
 CreateProfile.propTypes = {
-    createProfile: PropTypes.func.isRequired
+    createProfile: PropTypes.func.isRequired,
+    history: PropTypes.object
 };
 
 export default connect(null, {createProfile})(CreateProfile);
