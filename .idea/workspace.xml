@@ -6,14 +6,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fc05a04c-8aff-45c8-9415-caac20cd50dd" name="Default Changelist" comment="16_Get current user profile">
-      <change afterPath="$PROJECT_DIR$/client/src/components/profile-forms/AddEducation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/profile-forms/AddExperience.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/dashboard/Education.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/dashboard/Experience.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/actions/profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/actions/profile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/actions/types.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/actions/types.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/routing/PrivateRoute.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/routing/PrivateRoute.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/reducers/profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/reducers/profile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/dashboard/Dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/dashboard/Dashboard.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,6 +160,7 @@
       <workItem from="1642145575468" duration="1085000" />
       <workItem from="1642256366566" duration="594000" />
       <workItem from="1642404143621" duration="4350000" />
+      <workItem from="1642419217006" duration="4449000" />
     </task>
     <servers />
   </component>
@@ -273,10 +270,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="550" y="125" key="git4idea.branch.GitSmartOperationDialog/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1640111373432" />
-    <state x="589" y="311" key="git4idea.ui.GitStashDialog" timestamp="1638636672025">
+    <state x="589" y="311" key="git4idea.ui.GitStashDialog" timestamp="1642427243617">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="589" y="311" key="git4idea.ui.GitStashDialog/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1638636672025" />
+    <state x="589" y="311" key="git4idea.ui.GitStashDialog/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1642427243617" />
+    <state x="519" y="259" key="git4idea.ui.GitUnstashDialog" timestamp="1642427331247">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="519" y="259" key="git4idea.ui.GitUnstashDialog/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1642427331247" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1641752136140">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
