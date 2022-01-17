@@ -9,7 +9,7 @@
 //                           ...rest
 //                       }) => (
 //     <Route {...rest}
-//            element={props => !isAuthenticated && !loading ? (
+//            element={props => !isAuthenticated && loading ? (
 //                <Routes>
 //                    <Route path="/" element={<Navigate replace to="/login"/>}/>
 //                </Routes>
