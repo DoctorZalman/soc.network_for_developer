@@ -6,10 +6,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fc05a04c-8aff-45c8-9415-caac20cd50dd" name="Default Changelist" comment="16_Get current user profile">
+      <change afterPath="$PROJECT_DIR$/client/src/components/profiles/ProfileItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/profiles/Profiles.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/actions/profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/actions/profile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/actions/types.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/actions/types.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/reducers/profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/reducers/profile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/layout/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/layout/Navbar.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,13 +64,14 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\IT\fullstack\react-redux-node\client" />
-      <recent name="D:\IT\fullstack\react-redux-node" />
-      <recent name="D:\IT\fullstack\react-redux-node\client\src" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\IT\fullstack\react-redux-node\client\src\components\layout" />
+      <recent name="D:\IT\fullstack\react-redux-node\client\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IT\fullstack\react-redux-node\client\src\components" />
+      <recent name="D:\IT\fullstack\react-redux-node\client" />
+      <recent name="D:\IT\fullstack\react-redux-node" />
       <recent name="D:\IT\fullstack\react-redux-node\client\src" />
     </key>
   </component>
