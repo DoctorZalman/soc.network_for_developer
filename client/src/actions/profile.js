@@ -59,7 +59,6 @@ export const getProfileById = userId => async dispatch => {
 };
 
 // Get Github repos
-
 export const getGithubRepos = username => async dispatch => {
     try {
         const res = await axios.get(`/api/profile/github/${username}`);
@@ -106,7 +105,6 @@ export const createProfile = (formData, history, edit = false) => async dispatch
 }
 
 // Add Experience
-
 export const addExperience = (formData, history) => async dispatch => {
     try {
         const config = {
