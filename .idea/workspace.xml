@@ -6,10 +6,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fc05a04c-8aff-45c8-9415-caac20cd50dd" name="Default Changelist" comment="16_Get current user profile">
-      <change afterPath="$PROJECT_DIR$/client/src/components/profile/ProfileEducation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/profile/ProfileExperience.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/profile/Profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/profile/Profile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/reducers/profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/reducers/profile.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,14 +62,14 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\IT\fullstack\react-redux-node\client\src\components\layout" />
-      <recent name="D:\IT\fullstack\react-redux-node\client\src" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\IT\fullstack\react-redux-node\client\src\components" />
       <recent name="D:\IT\fullstack\react-redux-node\client" />
       <recent name="D:\IT\fullstack\react-redux-node" />
+      <recent name="D:\IT\fullstack\react-redux-node\client\src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IT\fullstack\react-redux-node\client\src\components\layout" />
       <recent name="D:\IT\fullstack\react-redux-node\client\src" />
     </key>
   </component>
@@ -253,10 +252,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1642407528263" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1642770367392">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1642778761155">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1642770367392" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1642778761155" />
     <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1636384749673">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
