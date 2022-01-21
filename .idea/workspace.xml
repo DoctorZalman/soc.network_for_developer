@@ -6,8 +6,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fc05a04c-8aff-45c8-9415-caac20cd50dd" name="Default Changelist" comment="16_Get current user profile">
-      <change afterPath="$PROJECT_DIR$/client/src/components/profile/ProfileAbout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/profile/ProfileTop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/profile/ProfileEducation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/profile/ProfileExperience.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/profile/Profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/profile/Profile.js" afterDir="false" />
     </list>
@@ -63,14 +63,14 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IT\fullstack\react-redux-node\client\src\components\layout" />
+      <recent name="D:\IT\fullstack\react-redux-node\client\src" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\IT\fullstack\react-redux-node\client\src\components" />
       <recent name="D:\IT\fullstack\react-redux-node\client" />
       <recent name="D:\IT\fullstack\react-redux-node" />
-      <recent name="D:\IT\fullstack\react-redux-node\client\src" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\IT\fullstack\react-redux-node\client\src\components\layout" />
       <recent name="D:\IT\fullstack\react-redux-node\client\src" />
     </key>
   </component>
