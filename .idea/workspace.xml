@@ -6,12 +6,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fc05a04c-8aff-45c8-9415-caac20cd50dd" name="Default Changelist" comment="16_Get current user profile">
+      <change afterPath="$PROJECT_DIR$/client/src/actions/post.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/actions/posts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/posts/Posts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/reducers/post.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/actions/profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/actions/profile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/profile/ProfileEducation.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/profile/ProfileEducation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/profile/ProfileExperience.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/profile/ProfileExperience.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/profile/ProfileGithub.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/profile/ProfileGithub.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api/profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api/profile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/actions/types.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/actions/types.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/reducers/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +32,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="59_Displaying-github-repos" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -53,7 +54,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/client/src/actions" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -66,6 +67,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IT\fullstack\react-redux-node\client\src\actions" />
       <recent name="D:\IT\fullstack\react-redux-node\client\src\components\layout" />
       <recent name="D:\IT\fullstack\react-redux-node\client\src" />
     </key>
@@ -166,6 +168,7 @@
       <workItem from="1642419217006" duration="4449000" />
       <workItem from="1642750490149" duration="148000" />
       <workItem from="1642751456769" duration="2784000" />
+      <workItem from="1642832865967" duration="2057000" />
     </task>
     <servers />
   </component>
