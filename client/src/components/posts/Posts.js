@@ -1,10 +1,10 @@
-import React, {Fragment} from "react";
+import React, {Fragment, useEffect} from "react";
 import PropTypes from 'prop-types';
 import {connect} from "react-redux";
 import {getPosts} from "../../actions/post";
-import {useEffect} from "react";
 import Spinner from "../layout/Spinner";
 import PostItem from "./PostItem";
+import PostForm from "./PostForm";
 
 const Post = ({getPosts, post: {posts, loading}}) => {
     useEffect(() => {
@@ -18,9 +18,9 @@ const Post = ({getPosts, post: {posts, loading}}) => {
                     Welcome to community
                 </i>
             </p>
-            {/* POST FORM*/}
+            <PostForm />
             <div className="posts">
-                {posts.map(post => (
+                {posts.map((post) => (
                     <PostItem key={post._id} post={post}/>
                 ))}
             </div>
